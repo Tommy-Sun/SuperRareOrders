@@ -13,5 +13,6 @@ This project uses npm to install it.
 2. Unzip the folder "SuperRareOrders-master".
 3. Open a terminal at the root of the project (cd "/path/to/SuperRareOrders-master").
 4. Run "npm install" in the terminal.
-5. After the dependencies have finished downloading, type "npm run dev" in the terminal (at the root of the project) to run in development mode.
-6. After the development server successfully starts: watch for tables to populate in the terminal.
+5. After the dependencies have finished downloading, update [src/components/toDatabase.ts](src/components/toDatabase.ts) to your own database.
+6. Type "npm run dev" in the terminal (at the root of the project) to run in development mode.
+7. After the development server successfully starts: watch for tables to populate in the terminal.
