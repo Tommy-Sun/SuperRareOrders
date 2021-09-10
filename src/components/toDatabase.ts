@@ -2,8 +2,8 @@ const { Client } = require('pg');
 
 function getClient() {
     const client = new Client({
-        user: "thomaskebschull",
-        host: "localhost",
+        user: "thomaskebschull", //change these values to match your own postgreSQL database. 
+        host: "localhost",  
         port: "5432",
         database: "superrareorders"
     });
@@ -76,5 +76,5 @@ async function showDB() {
 }
 
 
-export {  addtoDB, createDBtable, showDB };
+export { addtoDB, createDBtable, showDB };
 
